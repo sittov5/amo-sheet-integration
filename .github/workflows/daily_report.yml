@@ -1,0 +1,60 @@
+name: Daily AMO Report
+
+on:
+  # 18:00 UTC = 21:00 МСК (UTC+3)
+  schedule:
+    - cron: "0 18 * * *"
+
+  # Ручной запуск из вкладки Actions → Run workflow
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Дата (YYYY-MM-DD). Пусто = сегодня."
+        required: false
+        default: ""
+
+jobs:
+  run-report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Ключ сервисного аккаунта хранится в GitHub Secrets как GOOGLE_CREDENTIALS_JSON
+      # Добавь его в: Settings → Secrets and variables → Actions → New secret
+      - name: Write Google credentials
+        run: echo '${{ secrets.GOOGLE_CREDENTIALS_JSON }}' > credentials.json
+
+      - name: Run daily report
+        env:
+          AMO_DOMAIN:          ${{ secrets.AMO_DOMAIN }}
+          AMO_TOKEN:           ${{ secrets.AMO_TOKEN }}
+          PIPELINE_ID:         ${{ secrets.PIPELINE_ID }}
+          MANAGER_IDS:         ${{ secrets.MANAGER_IDS }}
+          STATUS_HOT_LEADS:    ${{ secrets.STATUS_HOT_LEADS }}
+          STATUS_TAKEN_TO_WORK: ${{ secrets.STATUS_TAKEN_TO_WORK }}
+          STATUS_DATA_RECEIVED: ${{ secrets.STATUS_DATA_RECEIVED }}
+          STATUS_KP_SENT:      ${{ secrets.STATUS_KP_SENT }}
+          STATUS_AGREED:       ${{ secrets.STATUS_AGREED }}
+          STATUS_CONFIRMED:    ${{ secrets.STATUS_CONFIRMED }}
+          STATUS_REJECTED:     ${{ secrets.STATUS_REJECTED }}
+          SPREADSHEET_ID:      ${{ secrets.SPREADSHEET_ID }}
+          TELEGRAM_BOT_TOKEN:  ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:    ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            python main.py --date "${{ github.event.inputs.date }}"
+          else
+            python main.py
+          fi

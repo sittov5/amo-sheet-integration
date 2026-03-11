@@ -1,0 +1,2385 @@
+{
+  "pipelines": {
+    "_total_items": 5,
+    "_links": {
+      "self": {
+        "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines"
+      }
+    },
+    "_embedded": {
+      "pipelines": [
+        {
+          "id": 4459135,
+          "name": "Е-КИВИ Праздники",
+          "sort": 1,
+          "is_main": true,
+          "is_unsorted_on": true,
+          "is_archive": false,
+          "account_id": 29591506,
+          "_links": {
+            "self": {
+              "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/4459135"
+            }
+          },
+          "_embedded": {
+            "statuses": [
+              {
+                "id": 41295151,
+                "name": "Неразобранное",
+                "sort": 10,
+                "is_editable": false,
+                "pipeline_id": 4459135,
+                "color": "#c1c1c1",
+                "type": 1,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/4459135/statuses/41295151"
+                  }
+                }
+              },
+              {
+                "id": 83479278,
+                "name": "БЕЗ СДЕЛОК",
+                "sort": 20,
+                "is_editable": true,
+                "pipeline_id": 4459135,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/4459135/statuses/83479278"
+                  }
+                }
+              },
+              {
+                "id": 41295154,
+                "name": "ВЗЯТ В РАБОТУ",
+                "sort": 30,
+                "is_editable": true,
+                "pipeline_id": 4459135,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/4459135/statuses/41295154"
+                  }
+                }
+              },
+              {
+                "id": 41295157,
+                "name": "ДАННЫЕ ДЛЯ КП ПОЛУЧЕНЫ (АИ ПРИНЯТ)",
+                "sort": 40,
+                "is_editable": true,
+                "pipeline_id": 4459135,
+                "color": "#fffeb2",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/4459135/statuses/41295157"
+                  }
+                }
+              },
+              {
+                "id": 44075410,
+                "name": "Показ назначен  (АИ ВСТРЕЧА)",
+                "sort": 50,
+                "is_editable": true,
+                "pipeline_id": 4459135,
+                "color": "#ccc8f9",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/4459135/statuses/44075410"
+                  }
+                }
+              },
+              {
+                "id": 41295160,
+                "name": "КП отправлено",
+                "sort": 60,
+                "is_editable": true,
+                "pipeline_id": 4459135,
+                "color": "#ffdc7f",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/4459135/statuses/41295160"
+                  }
+                }
+              },
+              {
+                "id": 41295244,
+                "name": "Праздник согласован",
+                "sort": 70,
+                "is_editable": true,
+                "pipeline_id": 4459135,
+                "color": "#ffce5a",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/4459135/statuses/41295244"
+                  }
+                }
+              },
+              {
+                "id": 44075440,
+                "name": "Праздник подтвержден  (АИ ИНФО)",
+                "sort": 80,
+                "is_editable": true,
+                "pipeline_id": 4459135,
+                "color": "#87f2c0",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/4459135/statuses/44075440"
+                  }
+                }
+              },
+              {
+                "id": 41295250,
+                "name": "Праздник состоялся (АИ БЛАГОД)",
+                "sort": 90,
+                "is_editable": true,
+                "pipeline_id": 4459135,
+                "color": "#ff8f92",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/4459135/statuses/41295250"
+                  }
+                }
+              },
+              {
+                "id": 44251369,
+                "name": "БЛАНК ЗАКРЫТ",
+                "sort": 100,
+                "is_editable": true,
+                "pipeline_id": 4459135,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/4459135/statuses/44251369"
+                  }
+                }
+              },
+              {
+                "id": 142,
+                "name": "успех",
+                "sort": 10000,
+                "is_editable": false,
+                "pipeline_id": 4459135,
+                "color": "#CCFF66",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/4459135/statuses/142"
+                  }
+                }
+              },
+              {
+                "id": 143,
+                "name": "Закрыто и не реализовано",
+                "sort": 11000,
+                "is_editable": false,
+                "pipeline_id": 4459135,
+                "color": "#D5D8DB",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/4459135/statuses/143"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": 8792834,
+          "name": "Повторные клиенты",
+          "sort": 2,
+          "is_main": false,
+          "is_unsorted_on": false,
+          "is_archive": false,
+          "account_id": 29591506,
+          "_links": {
+            "self": {
+              "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8792834"
+            }
+          },
+          "_embedded": {
+            "statuses": [
+              {
+                "id": 71111230,
+                "name": "Неразобранное",
+                "sort": 10,
+                "is_editable": false,
+                "pipeline_id": 8792834,
+                "color": "#c1c1c1",
+                "type": 1,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8792834/statuses/71111230"
+                  }
+                }
+              },
+              {
+                "id": 73803226,
+                "name": "НА РАССЫЛКУ ФИЗ",
+                "sort": 20,
+                "is_editable": true,
+                "pipeline_id": 8792834,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8792834/statuses/73803226"
+                  }
+                }
+              },
+              {
+                "id": 71111234,
+                "name": "<5 недель до праздника",
+                "sort": 30,
+                "is_editable": true,
+                "pipeline_id": 8792834,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8792834/statuses/71111234"
+                  }
+                }
+              },
+              {
+                "id": 71111238,
+                "name": "РАССЫЛКА ВЫПОЛНЕНА",
+                "sort": 40,
+                "is_editable": true,
+                "pipeline_id": 8792834,
+                "color": "#ffff99",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8792834/statuses/71111238"
+                  }
+                }
+              },
+              {
+                "id": 71129410,
+                "name": "получили ответ",
+                "sort": 50,
+                "is_editable": true,
+                "pipeline_id": 8792834,
+                "color": "#eb93ff",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8792834/statuses/71129410"
+                  }
+                }
+              },
+              {
+                "id": 142,
+                "name": "Успешно реализовано",
+                "sort": 10000,
+                "is_editable": false,
+                "pipeline_id": 8792834,
+                "color": "#CCFF66",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8792834/statuses/142"
+                  }
+                }
+              },
+              {
+                "id": 143,
+                "name": "Закрыто и не реализовано",
+                "sort": 11000,
+                "is_editable": false,
+                "pipeline_id": 8792834,
+                "color": "#D5D8DB",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8792834/statuses/143"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": 8795674,
+          "name": "Рассылки B2B",
+          "sort": 3,
+          "is_main": false,
+          "is_unsorted_on": false,
+          "is_archive": false,
+          "account_id": 29591506,
+          "_links": {
+            "self": {
+              "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8795674"
+            }
+          },
+          "_embedded": {
+            "statuses": [
+              {
+                "id": 71130714,
+                "name": "Неразобранное",
+                "sort": 10,
+                "is_editable": false,
+                "pipeline_id": 8795674,
+                "color": "#c1c1c1",
+                "type": 1,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8795674/statuses/71130714"
+                  }
+                }
+              },
+              {
+                "id": 71294346,
+                "name": "на рассылку",
+                "sort": 20,
+                "is_editable": true,
+                "pipeline_id": 8795674,
+                "color": "#fff000",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8795674/statuses/71294346"
+                  }
+                }
+              },
+              {
+                "id": 71130718,
+                "name": "провести рассылку",
+                "sort": 30,
+                "is_editable": true,
+                "pipeline_id": 8795674,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8795674/statuses/71130718"
+                  }
+                }
+              },
+              {
+                "id": 71130722,
+                "name": "Рассылка выполнена",
+                "sort": 40,
+                "is_editable": true,
+                "pipeline_id": 8795674,
+                "color": "#ffff99",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8795674/statuses/71130722"
+                  }
+                }
+              },
+              {
+                "id": 71130726,
+                "name": "Получили ответ",
+                "sort": 50,
+                "is_editable": true,
+                "pipeline_id": 8795674,
+                "color": "#ffcc66",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8795674/statuses/71130726"
+                  }
+                }
+              },
+              {
+                "id": 73657146,
+                "name": "ДА",
+                "sort": 60,
+                "is_editable": true,
+                "pipeline_id": 8795674,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8795674/statuses/73657146"
+                  }
+                }
+              },
+              {
+                "id": 73657150,
+                "name": "НЕТ",
+                "sort": 70,
+                "is_editable": true,
+                "pipeline_id": 8795674,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8795674/statuses/73657150"
+                  }
+                }
+              },
+              {
+                "id": 73717798,
+                "name": "РАССЫЛКА ДОЛЖНИК",
+                "sort": 80,
+                "is_editable": true,
+                "pipeline_id": 8795674,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8795674/statuses/73717798"
+                  }
+                }
+              },
+              {
+                "id": 73718182,
+                "name": "ДОЛЖНИК ОТВЕТИЛ",
+                "sort": 90,
+                "is_editable": true,
+                "pipeline_id": 8795674,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8795674/statuses/73718182"
+                  }
+                }
+              },
+              {
+                "id": 142,
+                "name": "Успешно реализовано",
+                "sort": 10000,
+                "is_editable": false,
+                "pipeline_id": 8795674,
+                "color": "#CCFF66",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8795674/statuses/142"
+                  }
+                }
+              },
+              {
+                "id": 143,
+                "name": "Закрыто и не реализовано",
+                "sort": 11000,
+                "is_editable": false,
+                "pipeline_id": 8795674,
+                "color": "#D5D8DB",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8795674/statuses/143"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": 8811662,
+          "name": "Тесты",
+          "sort": 4,
+          "is_main": false,
+          "is_unsorted_on": false,
+          "is_archive": false,
+          "account_id": 29591506,
+          "_links": {
+            "self": {
+              "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8811662"
+            }
+          },
+          "_embedded": {
+            "statuses": [
+              {
+                "id": 71237410,
+                "name": "Неразобранное",
+                "sort": 10,
+                "is_editable": false,
+                "pipeline_id": 8811662,
+                "color": "#c1c1c1",
+                "type": 1,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8811662/statuses/71237410"
+                  }
+                }
+              },
+              {
+                "id": 71237414,
+                "name": "не отправляем сообщение",
+                "sort": 20,
+                "is_editable": true,
+                "pipeline_id": 8811662,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8811662/statuses/71237414"
+                  }
+                }
+              },
+              {
+                "id": 71237418,
+                "name": "отправить сообщение",
+                "sort": 30,
+                "is_editable": true,
+                "pipeline_id": 8811662,
+                "color": "#ffff99",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8811662/statuses/71237418"
+                  }
+                }
+              },
+              {
+                "id": 71237422,
+                "name": "Принимают решение",
+                "sort": 40,
+                "is_editable": true,
+                "pipeline_id": 8811662,
+                "color": "#ffcc66",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8811662/statuses/71237422"
+                  }
+                }
+              },
+              {
+                "id": 142,
+                "name": "Успешно реализовано",
+                "sort": 10000,
+                "is_editable": false,
+                "pipeline_id": 8811662,
+                "color": "#CCFF66",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8811662/statuses/142"
+                  }
+                }
+              },
+              {
+                "id": 143,
+                "name": "Закрыто и не реализовано",
+                "sort": 11000,
+                "is_editable": false,
+                "pipeline_id": 8811662,
+                "color": "#D5D8DB",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/8811662/statuses/143"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": 9175934,
+          "name": "Рассылка Сотрудники",
+          "sort": 5,
+          "is_main": false,
+          "is_unsorted_on": true,
+          "is_archive": false,
+          "account_id": 29591506,
+          "_links": {
+            "self": {
+              "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/9175934"
+            }
+          },
+          "_embedded": {
+            "statuses": [
+              {
+                "id": 73736826,
+                "name": "Неразобранное",
+                "sort": 10,
+                "is_editable": false,
+                "pipeline_id": 9175934,
+                "color": "#c1c1c1",
+                "type": 1,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/9175934/statuses/73736826"
+                  }
+                }
+              },
+              {
+                "id": 73736830,
+                "name": "На рассылку сотруд",
+                "sort": 20,
+                "is_editable": true,
+                "pipeline_id": 9175934,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/9175934/statuses/73736830"
+                  }
+                }
+              },
+              {
+                "id": 73736834,
+                "name": "рассылка сотруд",
+                "sort": 30,
+                "is_editable": true,
+                "pipeline_id": 9175934,
+                "color": "#ffff99",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/9175934/statuses/73736834"
+                  }
+                }
+              },
+              {
+                "id": 73736910,
+                "name": "Рассылка выполнена",
+                "sort": 40,
+                "is_editable": true,
+                "pipeline_id": 9175934,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/9175934/statuses/73736910"
+                  }
+                }
+              },
+              {
+                "id": 73736838,
+                "name": "ответил сотруд",
+                "sort": 50,
+                "is_editable": true,
+                "pipeline_id": 9175934,
+                "color": "#ffcc66",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/9175934/statuses/73736838"
+                  }
+                }
+              },
+              {
+                "id": 73736850,
+                "name": "ожидание сотруд",
+                "sort": 60,
+                "is_editable": true,
+                "pipeline_id": 9175934,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/9175934/statuses/73736850"
+                  }
+                }
+              },
+              {
+                "id": 142,
+                "name": "Успешно реализовано",
+                "sort": 10000,
+                "is_editable": false,
+                "pipeline_id": 9175934,
+                "color": "#CCFF66",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/9175934/statuses/142"
+                  }
+                }
+              },
+              {
+                "id": 143,
+                "name": "Закрыто и не реализовано",
+                "sort": 11000,
+                "is_editable": false,
+                "pipeline_id": 9175934,
+                "color": "#D5D8DB",
+                "type": 0,
+                "account_id": 29591506,
+                "_links": {
+                  "self": {
+                    "href": "https://kiviclub.amocrm.ru/api/v4/leads/pipelines/9175934/statuses/143"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "users": {
+    "_total_items": 12,
+    "_page": 1,
+    "_page_count": 1,
+    "_links": {
+      "self": {
+        "href": "https://kiviclub.amocrm.ru/api/v4/users/?page=1&limit=250"
+      }
+    },
+    "_embedded": {
+      "users": [
+        {
+          "id": 3070411,
+          "name": "Устенко Алексей",
+          "email": "itascrm@mail.ru",
+          "lang": "ru",
+          "rights": {
+            "leads": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "contacts": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "companies": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "tasks": {
+              "edit": "A",
+              "delete": "A"
+            },
+            "mail_access": true,
+            "catalog_access": true,
+            "files_access": true,
+            "status_rights": [
+              {
+                "entity_type": "leads",
+                "pipeline_id": 4459135,
+                "status_id": 41295151,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8792834,
+                "status_id": 71111230,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8795674,
+                "status_id": 71130714,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8811662,
+                "status_id": 71237410,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 9175934,
+                "status_id": 73736826,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              }
+            ],
+            "catalog_rights": [
+              {
+                "catalog_id": 7901,
+                "rights": {
+                  "add": "A",
+                  "edit": "A",
+                  "view": "A",
+                  "delete": "A",
+                  "export": "A"
+                }
+              },
+              {
+                "catalog_id": 7903,
+                "rights": {
+                  "add": "A",
+                  "edit": "A",
+                  "view": "A",
+                  "delete": "A",
+                  "export": "A"
+                }
+              },
+              {
+                "catalog_id": 7905,
+                "rights": {
+                  "add": "A",
+                  "edit": "A",
+                  "view": "A",
+                  "delete": "A",
+                  "export": "A"
+                }
+              },
+              {
+                "catalog_id": 11097,
+                "rights": {
+                  "add": "A",
+                  "edit": "A",
+                  "view": "A",
+                  "delete": "A",
+                  "export": "A"
+                }
+              }
+            ],
+            "custom_fields_rights": null,
+            "oper_day_reports_view_access": true,
+            "oper_day_user_tracking": false,
+            "is_admin": true,
+            "is_free": false,
+            "is_active": false,
+            "group_id": 0,
+            "role_id": null
+          },
+          "_links": {
+            "self": {
+              "href": "https://kiviclub.amocrm.ru/api/v4/users/3070411/?page=1&limit=250"
+            }
+          }
+        },
+        {
+          "id": 7166458,
+          "name": "Максим",
+          "email": "sitt@yandex.ru",
+          "lang": "ru",
+          "rights": {
+            "leads": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "contacts": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "companies": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "tasks": {
+              "edit": "A",
+              "delete": "A"
+            },
+            "mail_access": true,
+            "catalog_access": true,
+            "files_access": true,
+            "status_rights": [
+              {
+                "entity_type": "leads",
+                "pipeline_id": 4459135,
+                "status_id": 41295151,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8792834,
+                "status_id": 71111230,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8795674,
+                "status_id": 71130714,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8811662,
+                "status_id": 71237410,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 9175934,
+                "status_id": 73736826,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              }
+            ],
+            "catalog_rights": [
+              {
+                "catalog_id": 7901,
+                "rights": {
+                  "add": "A",
+                  "edit": "A",
+                  "view": "A",
+                  "delete": "A",
+                  "export": "A"
+                }
+              },
+              {
+                "catalog_id": 7903,
+                "rights": {
+                  "add": "A",
+                  "edit": "A",
+                  "view": "A",
+                  "delete": "A",
+                  "export": "A"
+                }
+              },
+              {
+                "catalog_id": 7905,
+                "rights": {
+                  "add": "A",
+                  "edit": "A",
+                  "view": "A",
+                  "delete": "A",
+                  "export": "A"
+                }
+              },
+              {
+                "catalog_id": 11097,
+                "rights": {
+                  "add": "A",
+                  "edit": "A",
+                  "view": "A",
+                  "delete": "A",
+                  "export": "A"
+                }
+              }
+            ],
+            "custom_fields_rights": null,
+            "oper_day_reports_view_access": true,
+            "oper_day_user_tracking": false,
+            "is_admin": true,
+            "is_free": false,
+            "is_active": true,
+            "group_id": 348787,
+            "role_id": null
+          },
+          "_links": {
+            "self": {
+              "href": "https://kiviclub.amocrm.ru/api/v4/users/7166458/?page=1&limit=250"
+            }
+          }
+        },
+        {
+          "id": 7873423,
+          "name": "Е-Праздник",
+          "email": "prazdnik-ekb@yandex.ru",
+          "lang": "ru",
+          "rights": {
+            "leads": {
+              "view": "M",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "contacts": {
+              "view": "G",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "companies": {
+              "view": "G",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "tasks": {
+              "edit": "M",
+              "delete": "M"
+            },
+            "mail_access": false,
+            "catalog_access": false,
+            "files_access": false,
+            "status_rights": [
+              {
+                "entity_type": "leads",
+                "pipeline_id": 4459135,
+                "status_id": 41295151,
+                "rights": {
+                  "edit": "A",
+                  "view": "A",
+                  "delete": "D"
+                }
+              }
+            ],
+            "catalog_rights": [
+              {
+                "catalog_id": 7901,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 7903,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 7905,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 11097,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              }
+            ],
+            "custom_fields_rights": null,
+            "oper_day_reports_view_access": false,
+            "oper_day_user_tracking": false,
+            "is_admin": false,
+            "is_free": false,
+            "is_active": false,
+            "group_id": 0,
+            "role_id": 322921
+          },
+          "_links": {
+            "self": {
+              "href": "https://kiviclub.amocrm.ru/api/v4/users/7873423/?page=1&limit=250"
+            }
+          }
+        },
+        {
+          "id": 8422399,
+          "name": "Юля Кочурова",
+          "email": "sitt2@yandex.ru",
+          "lang": "ru",
+          "rights": {
+            "leads": {
+              "view": "M",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "contacts": {
+              "view": "G",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "companies": {
+              "view": "G",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "tasks": {
+              "edit": "M",
+              "delete": "M"
+            },
+            "mail_access": true,
+            "catalog_access": false,
+            "files_access": false,
+            "status_rights": [
+              {
+                "entity_type": "leads",
+                "pipeline_id": 4459135,
+                "status_id": 41295151,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8792834,
+                "status_id": 71111230,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8795674,
+                "status_id": 71130714,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8811662,
+                "status_id": 71237410,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 9175934,
+                "status_id": 73736826,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              }
+            ],
+            "catalog_rights": [
+              {
+                "catalog_id": 7901,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 7903,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 7905,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 11097,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              }
+            ],
+            "custom_fields_rights": null,
+            "oper_day_reports_view_access": false,
+            "oper_day_user_tracking": false,
+            "is_admin": false,
+            "is_free": false,
+            "is_active": false,
+            "group_id": 0,
+            "role_id": null
+          },
+          "_links": {
+            "self": {
+              "href": "https://kiviclub.amocrm.ru/api/v4/users/8422399/?page=1&limit=250"
+            }
+          }
+        },
+        {
+          "id": 8422402,
+          "name": "Саша Коробкова",
+          "email": "sitt3@yandex.ru",
+          "lang": "ru",
+          "rights": {
+            "leads": {
+              "view": "M",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "contacts": {
+              "view": "G",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "companies": {
+              "view": "G",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "tasks": {
+              "edit": "M",
+              "delete": "M"
+            },
+            "mail_access": true,
+            "catalog_access": false,
+            "files_access": false,
+            "status_rights": [
+              {
+                "entity_type": "leads",
+                "pipeline_id": 4459135,
+                "status_id": 41295151,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8792834,
+                "status_id": 71111230,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8795674,
+                "status_id": 71130714,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8811662,
+                "status_id": 71237410,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 9175934,
+                "status_id": 73736826,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              }
+            ],
+            "catalog_rights": [
+              {
+                "catalog_id": 7901,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 7903,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 7905,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 11097,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              }
+            ],
+            "custom_fields_rights": null,
+            "oper_day_reports_view_access": false,
+            "oper_day_user_tracking": false,
+            "is_admin": false,
+            "is_free": false,
+            "is_active": false,
+            "group_id": 0,
+            "role_id": null
+          },
+          "_links": {
+            "self": {
+              "href": "https://kiviclub.amocrm.ru/api/v4/users/8422402/?page=1&limit=250"
+            }
+          }
+        },
+        {
+          "id": 8617441,
+          "name": "Виктория Удникова",
+          "email": "sitt4@yandex.ru",
+          "lang": "ru",
+          "rights": {
+            "leads": {
+              "view": "M",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "contacts": {
+              "view": "A",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "companies": {
+              "view": "A",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "tasks": {
+              "edit": "M",
+              "delete": "D"
+            },
+            "mail_access": true,
+            "catalog_access": false,
+            "files_access": false,
+            "status_rights": [
+              {
+                "entity_type": "leads",
+                "pipeline_id": 4459135,
+                "status_id": 41295151,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 4459135,
+                "status_id": 83479278,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 9175934,
+                "status_id": 73736826,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8792834,
+                "status_id": 71111230,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8795674,
+                "status_id": 71130714,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8811662,
+                "status_id": 71237410,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              }
+            ],
+            "catalog_rights": [
+              {
+                "catalog_id": 7901,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 7903,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 7905,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 11097,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              }
+            ],
+            "custom_fields_rights": null,
+            "oper_day_reports_view_access": false,
+            "oper_day_user_tracking": false,
+            "is_admin": false,
+            "is_free": false,
+            "is_active": true,
+            "group_id": 0,
+            "role_id": null
+          },
+          "_links": {
+            "self": {
+              "href": "https://kiviclub.amocrm.ru/api/v4/users/8617441/?page=1&limit=250"
+            }
+          }
+        },
+        {
+          "id": 9894862,
+          "name": "Алена Вихарева",
+          "email": "sitt5@yandex.ru",
+          "lang": "ru",
+          "rights": {
+            "leads": {
+              "view": "M",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "contacts": {
+              "view": "A",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "companies": {
+              "view": "A",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "tasks": {
+              "edit": "M",
+              "delete": "D"
+            },
+            "mail_access": true,
+            "catalog_access": false,
+            "files_access": false,
+            "status_rights": [
+              {
+                "entity_type": "leads",
+                "pipeline_id": 4459135,
+                "status_id": 41295151,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 9175934,
+                "status_id": 73736826,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8792834,
+                "status_id": 71111230,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8795674,
+                "status_id": 71130714,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8811662,
+                "status_id": 71237410,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              }
+            ],
+            "catalog_rights": [
+              {
+                "catalog_id": 7901,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 7903,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 7905,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 11097,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              }
+            ],
+            "custom_fields_rights": null,
+            "oper_day_reports_view_access": false,
+            "oper_day_user_tracking": false,
+            "is_admin": false,
+            "is_free": false,
+            "is_active": true,
+            "group_id": 0,
+            "role_id": null
+          },
+          "_links": {
+            "self": {
+              "href": "https://kiviclub.amocrm.ru/api/v4/users/9894862/?page=1&limit=250"
+            }
+          }
+        },
+        {
+          "id": 12439478,
+          "name": "Коковина Катя",
+          "email": "Sitt6@yandex.ru",
+          "lang": "ru",
+          "rights": {
+            "leads": {
+              "view": "M",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "contacts": {
+              "view": "G",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "companies": {
+              "view": "G",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "tasks": {
+              "edit": "M",
+              "delete": "M"
+            },
+            "mail_access": false,
+            "catalog_access": false,
+            "files_access": false,
+            "status_rights": [
+              {
+                "entity_type": "leads",
+                "pipeline_id": 4459135,
+                "status_id": 41295151,
+                "rights": {
+                  "edit": "A",
+                  "view": "A",
+                  "delete": "D"
+                }
+              }
+            ],
+            "catalog_rights": [
+              {
+                "catalog_id": 7901,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 7903,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 7905,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 11097,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              }
+            ],
+            "custom_fields_rights": null,
+            "oper_day_reports_view_access": false,
+            "oper_day_user_tracking": false,
+            "is_admin": false,
+            "is_free": false,
+            "is_active": false,
+            "group_id": 0,
+            "role_id": 322921
+          },
+          "_links": {
+            "self": {
+              "href": "https://kiviclub.amocrm.ru/api/v4/users/12439478/?page=1&limit=250"
+            }
+          }
+        },
+        {
+          "id": 12439486,
+          "name": "Катя Коковина",
+          "email": "Sitt7@yandex.ru",
+          "lang": "ru",
+          "rights": {
+            "leads": {
+              "view": "M",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "contacts": {
+              "view": "G",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "companies": {
+              "view": "G",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "tasks": {
+              "edit": "M",
+              "delete": "M"
+            },
+            "mail_access": false,
+            "catalog_access": false,
+            "files_access": false,
+            "status_rights": [
+              {
+                "entity_type": "leads",
+                "pipeline_id": 4459135,
+                "status_id": 41295151,
+                "rights": {
+                  "edit": "A",
+                  "view": "A",
+                  "delete": "D"
+                }
+              }
+            ],
+            "catalog_rights": [
+              {
+                "catalog_id": 7901,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 7903,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 7905,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 11097,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              }
+            ],
+            "custom_fields_rights": null,
+            "oper_day_reports_view_access": false,
+            "oper_day_user_tracking": false,
+            "is_admin": false,
+            "is_free": false,
+            "is_active": false,
+            "group_id": 0,
+            "role_id": 322921
+          },
+          "_links": {
+            "self": {
+              "href": "https://kiviclub.amocrm.ru/api/v4/users/12439486/?page=1&limit=250"
+            }
+          }
+        },
+        {
+          "id": 12439510,
+          "name": "Екатерина Коковина",
+          "email": "Sitt8@yandex.ru",
+          "lang": "ru",
+          "rights": {
+            "leads": {
+              "view": "M",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "contacts": {
+              "view": "A",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "companies": {
+              "view": "A",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "tasks": {
+              "edit": "M",
+              "delete": "D"
+            },
+            "mail_access": false,
+            "catalog_access": false,
+            "files_access": false,
+            "status_rights": [
+              {
+                "entity_type": "leads",
+                "pipeline_id": 4459135,
+                "status_id": 41295151,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 9175934,
+                "status_id": 73736826,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8792834,
+                "status_id": 71111230,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8795674,
+                "status_id": 71130714,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8811662,
+                "status_id": 71237410,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              }
+            ],
+            "catalog_rights": [
+              {
+                "catalog_id": 7901,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 7903,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 7905,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 11097,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              }
+            ],
+            "custom_fields_rights": null,
+            "oper_day_reports_view_access": false,
+            "oper_day_user_tracking": false,
+            "is_admin": false,
+            "is_free": false,
+            "is_active": true,
+            "group_id": 0,
+            "role_id": null
+          },
+          "_links": {
+            "self": {
+              "href": "https://kiviclub.amocrm.ru/api/v4/users/12439510/?page=1&limit=250"
+            }
+          }
+        },
+        {
+          "id": 13472750,
+          "name": "Валерия Кузнецова",
+          "email": "sitt9@yandex.ru",
+          "lang": "ru",
+          "rights": {
+            "leads": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "contacts": {
+              "view": "A",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "companies": {
+              "view": "A",
+              "edit": "M",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "tasks": {
+              "edit": "M",
+              "delete": "D"
+            },
+            "mail_access": false,
+            "catalog_access": false,
+            "files_access": false,
+            "status_rights": [
+              {
+                "entity_type": "leads",
+                "pipeline_id": 4459135,
+                "status_id": 41295151,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 9175934,
+                "status_id": 73736826,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8792834,
+                "status_id": 71111230,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8795674,
+                "status_id": 71130714,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8811662,
+                "status_id": 71237410,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              }
+            ],
+            "catalog_rights": [
+              {
+                "catalog_id": 7901,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 7903,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 7905,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 11097,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              }
+            ],
+            "custom_fields_rights": null,
+            "oper_day_reports_view_access": false,
+            "oper_day_user_tracking": false,
+            "is_admin": false,
+            "is_free": false,
+            "is_active": true,
+            "group_id": 0,
+            "role_id": null
+          },
+          "_links": {
+            "self": {
+              "href": "https://kiviclub.amocrm.ru/api/v4/users/13472750/?page=1&limit=250"
+            }
+          }
+        },
+        {
+          "id": 13474622,
+          "name": "Екатерина Кравченко",
+          "email": "sitt10@yandex.ru",
+          "lang": "ru",
+          "rights": {
+            "leads": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "contacts": {
+              "view": "A",
+              "edit": "D",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "companies": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "D",
+              "export": "D"
+            },
+            "tasks": {
+              "edit": "M",
+              "delete": "D"
+            },
+            "mail_access": false,
+            "catalog_access": false,
+            "files_access": false,
+            "status_rights": [
+              {
+                "entity_type": "leads",
+                "pipeline_id": 4459135,
+                "status_id": 41295151,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 9175934,
+                "status_id": 73736826,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8792834,
+                "status_id": 71111230,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8795674,
+                "status_id": 71130714,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 8811662,
+                "status_id": 71237410,
+                "rights": {
+                  "view": "D",
+                  "edit": "D",
+                  "delete": "D"
+                }
+              }
+            ],
+            "catalog_rights": [
+              {
+                "catalog_id": 7901,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 7903,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 7905,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              },
+              {
+                "catalog_id": 11097,
+                "rights": {
+                  "add": "D",
+                  "edit": "D",
+                  "view": "D",
+                  "delete": "D",
+                  "export": "D"
+                }
+              }
+            ],
+            "custom_fields_rights": null,
+            "oper_day_reports_view_access": false,
+            "oper_day_user_tracking": false,
+            "is_admin": false,
+            "is_free": false,
+            "is_active": true,
+            "group_id": 0,
+            "role_id": null
+          },
+          "_links": {
+            "self": {
+              "href": "https://kiviclub.amocrm.ru/api/v4/users/13474622/?page=1&limit=250"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
