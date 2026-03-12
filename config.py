@@ -88,7 +88,10 @@ ROW_OFFSETS: dict[str, int] = {
 # ── Telegram ──────────────────────────────────────────────────────────────────
 
 TELEGRAM_BOT_TOKEN: str = os.getenv("TELEGRAM_BOT_TOKEN", "")
-TELEGRAM_CHAT_ID: str = os.getenv("TELEGRAM_CHAT_ID", "")
+
+# Список chat_id через запятую: "-100123456789,486797180"
+_raw_chat_ids = os.getenv("TELEGRAM_CHAT_IDS", os.getenv("TELEGRAM_CHAT_ID", ""))
+TELEGRAM_CHAT_IDS: list[str] = [x.strip() for x in _raw_chat_ids.split(",") if x.strip()]
 
 # ── Вспомогательное ───────────────────────────────────────────────────────────
 

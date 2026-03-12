@@ -88,18 +88,18 @@ def _fmt_money(amount: float) -> str:
 
 
 def _send_message(text: str) -> None:
-    if not config.TELEGRAM_BOT_TOKEN or not config.TELEGRAM_CHAT_ID:
+    if not config.TELEGRAM_BOT_TOKEN or not config.TELEGRAM_CHAT_IDS:
         logger.warning("Telegram credentials not configured. Skipping message send.")
         logger.info("Report text:\n%s", text)
         return
 
     url = _API_URL.format(token=config.TELEGRAM_BOT_TOKEN)
-    payload = {
-        "chat_id": config.TELEGRAM_CHAT_ID,
-        "text": text,
-        "parse_mode": "HTML",
-    }
-
-    resp = requests.post(url, json=payload, timeout=15)
-    resp.raise_for_status()
-    logger.info("Telegram report sent successfully.")
+    for chat_id in config.TELEGRAM_CHAT_IDS:
+        payload = {
+            "chat_id": chat_id,
+            "text": text,
+            "parse_mode": "HTML",
+        }
+        resp = requests.post(url, json=payload, timeout=15)
+        resp.raise_for_status()
+        logger.info("Telegram report sent to chat_id=%s.", chat_id)

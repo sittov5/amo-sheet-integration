@@ -6,7 +6,7 @@ bot.py — Telegram-бот для ручного запуска отчёта.
   /report ГГГГ-ММ-ДД  — отчёт за конкретную дату (для проверки прошлых дней)
 
 Запуск: python bot.py
-Бот принимает команды только из чата TELEGRAM_CHAT_ID (из .env).
+Бот принимает команды только из чатов TELEGRAM_CHAT_IDS (из .env).
 """
 
 from __future__ import annotations
@@ -53,8 +53,8 @@ def _handle(message: dict) -> None:
     chat_id = str(message.get("chat", {}).get("id", ""))
     text    = (message.get("text") or "").strip()
 
-    # Принимаем команды только из авторизованного чата
-    if chat_id != str(config.TELEGRAM_CHAT_ID):
+    # Принимаем команды только из авторизованных чатов
+    if chat_id not in [str(c) for c in config.TELEGRAM_CHAT_IDS]:
         logger.warning("Ignoring message from unauthorized chat_id=%s", chat_id)
         return
 
@@ -85,8 +85,8 @@ def _handle(message: dict) -> None:
 
 
 def poll() -> None:
-    logger.info("Bot started. Listening for /report commands in chat %s…",
-                config.TELEGRAM_CHAT_ID)
+    logger.info("Bot started. Listening for /report commands in chats %s…",
+                config.TELEGRAM_CHAT_IDS)
     offset = 0
 
     while True:
