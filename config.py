@@ -85,6 +85,19 @@ TELEGRAM_BOT_TOKEN: str = os.getenv("TELEGRAM_BOT_TOKEN", "")
 _raw_chat_ids = os.getenv("TELEGRAM_CHAT_IDS", os.getenv("TELEGRAM_CHAT_ID", ""))
 TELEGRAM_CHAT_IDS: list[str] = [x.strip() for x in _raw_chat_ids.split(",") if x.strip()]
 
+# ID топиков (threads) для групповых чатов с форумом.
+# Формат: "chat_id:topic_id,chat_id:topic_id"
+# Пример: "-100123456789:42,-100987654321:7"
+# Если для chat_id топик не указан — сообщение отправляется в общий чат.
+_raw_topic_ids = os.getenv("TELEGRAM_TOPIC_IDS", "")
+TELEGRAM_TOPIC_IDS: dict[str, int] = {}
+for _entry in _raw_topic_ids.split(","):
+    _entry = _entry.strip()
+    if ":" in _entry:
+        _cid, _tid = _entry.rsplit(":", 1)
+        if _cid.strip() and _tid.strip():
+            TELEGRAM_TOPIC_IDS[_cid.strip()] = int(_tid.strip())
+
 # ── Вспомогательное ───────────────────────────────────────────────────────────
 
 # Названия вкладок (месяц → название листа в таблице)
