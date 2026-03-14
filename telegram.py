@@ -95,13 +95,13 @@ def _send_message(text: str) -> None:
 
     url = _API_URL.format(token=config.TELEGRAM_BOT_TOKEN)
     for chat_id in config.TELEGRAM_CHAT_IDS:
-        payload: dict = {
+        topic_id = config.TELEGRAM_TOPIC_IDS.get(chat_id)
+        payload = {
             "chat_id": chat_id,
             "text": text,
             "parse_mode": "HTML",
         }
-        topic_id = config.TELEGRAM_TOPIC_IDS.get(chat_id)
-        if topic_id:
+        if topic_id is not None:
             payload["message_thread_id"] = topic_id
         resp = requests.post(url, json=payload, timeout=15)
         resp.raise_for_status()
