@@ -58,7 +58,7 @@ def _format_report(
         rejected        = int(data.get("rejected", 0))
 
         lines.append(
-            f"👤 <b>{name}</b>\n"
+            f"\n👤 <b>{name}</b>\n"
             f"  🔥 Горячие (Входящее обращение): {hot_leads}\n"
             f"  📥 Взят в работу: {taken_to_work}\n"
             f"  📋 Данные для КП получены: {data_received}\n"
