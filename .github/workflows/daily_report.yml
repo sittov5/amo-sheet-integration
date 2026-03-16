@@ -1,9 +1,9 @@
 name: Daily AMO Report
 
 on:
-  # 18:00 UTC = 21:00 МСК (UTC+3)
+  # 15:00 UTC = 18:00 МСК (UTC+3)
   schedule:
-    - cron: "0 18 * * *"
+    - cron: "0 15 * * *"
 
   # Ручной запуск из вкладки Actions → Run workflow
   workflow_dispatch:
